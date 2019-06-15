@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/book"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Our Online Book Store"
+        android:textColor="#1527CD"
+        android:layout_marginLeft="8dp"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:background="#09B937"
+        android:text="SIGN UP"
+        android:textColor="#151B54"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:background="#09B937"
+        android:text="BOOK LIST"
+        android:textColor="#151B54"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="#09B937"
+        android:text="Call For Assistance"
+        android:textColor="#151B54"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:id="@+id/about"
+        android:layout_marginHorizontal="80dp"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Initiatives by students of Sharda University(ADITI CHANDRA,RAJSI SAXENA,ARPITA DEBNATH,RISHIT ATWAL, SHIVAM MISHRA)Greater Noida, Uttar Pradesh"
+        android:textColor="#DF2194"
+        android:textStyle="bold"
+        android:id="@+id/cont"
+        android:textSize="20dp"
+        android:layout_marginLeft="8dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:layout_marginTop="20dp"
+        android:id="@+id/thank"
+        android:text="Thank You for Visiting"
+        android:layout_marginHorizontal="80dp"/>
+
+
+
+
+</LinearLayout>

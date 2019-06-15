@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/books">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:id="@+id/name"
+        android:inputType="text"
+        android:textColorHint="#FF00"
+        android:textSize="25dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email-id"
+        android:id="@+id/email"
+        android:textColorHint="#000"
+        android:inputType="text"
+        android:layout_marginBottom="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/group">
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#35BDBD"/>
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#35BDBD"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt1"/>
+    </RadioGroup>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone number"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/pno"
+        android:textColorHint="#1F2DD5"
+        android:inputType="number"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter address"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/address"
+        android:inputType="text"
+        android:textColorHint="#A11FD5"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/submit"
+        android:background="#f0f0"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

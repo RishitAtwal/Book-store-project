@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A6DD58"
+    tools:context=".ListDetails9">
+    <ImageView
+        android:id="@+id/book10"
+        android:layout_width="362dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="99dp"
+        android:layout_y="14dp"
+        android:src="@drawable/book10"
+        android:textAlignment="center"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/t10"
+        android:layout_width="341dp"
+        android:layout_height="87dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_x="43dp"
+        android:layout_y="197dp"
+        android:text="THE GAME OF DESTINY: Destiny is the Culprit"
+        android:textAlignment="center"
+        android:textColor="#2453E1"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Price: Rs. 209 (Inclusive of All Taxes) 30% Discount"
+        android:textColor="#BD1126"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="#2131E3"
+        android:text="ADD TO CART"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
